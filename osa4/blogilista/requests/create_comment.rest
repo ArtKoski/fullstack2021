@@ -1,10 +1,7 @@
-POST http://localhost:3003/api/blogs/
+POST http://localhost:3003/api/blogs/611cf8ee9072e6505a94f503/comments
 Content-Type: application/json
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3RHdXkiLCJpZCI6IjYwZjk4Y2M5Mjk3MzNiNzk4ZDVjYWFmYSIsImlhdCI6MTYyOTI4NzYyNSwiZXhwIjoxNjI5MjkxMjI1fQ.CGRyilV0vBTTIjGHyASc1hI6hxdQjjxensnX_giNtI4
 
 {
-    "title": "trollpost",
-    "author": "asd",
-    "url": "asd",
-    "userId": "60faa9fe1660b271f999496b"
+    "comment": "this is a comment"
 }
